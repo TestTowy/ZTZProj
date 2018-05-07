@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Opis Edytuj</title>
+ <link href="style.css" rel="stylesheet" type="text/css">
+ <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+ <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+ <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid nav">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="/"><b>Strona domowa</b></a></li>
+                    <li><a href="/Opis"><b>O stronie</b></a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+  <div class="container" style="padding-top: 65px;">
+      <div class="row clearfix">
+  		<div class="col-md-12 column">
+  			<table class="table table-bordered table-hover" id="tab_logic">
+  				<thead>
+  					<tr >
+  						<th class="text-center">
+  							Nazwa aplikacji:
+  						</th>
+  						<th class="text-center">
+  							Opis:
+  						</th>
+  						<th class="text-center">
+  							Autor:
+  						</th>
+  						<th class="text-center">
+  							Wersja:
+  						</th>
+  					</tr>
+  				</thead>
+  				<tbody>
+  					<tr id='addr0'>
+              <form method="post" action="/Opis/OpisEdytuj">
+  						<td>
+  						<input type="text" name="nazwa_aplikacji" value="<%= nazwa_aplikacji %>" class="form-control">
+  						</td>
+  						<td>
+  						<input type="text" name="opis_aplikacji" value="<%= opis_aplikacji %>" class="form-control">
+  						</td>
+  						<td>
+  						<input type="text" name="autor_aplikacji" value="<%= autor_aplikacji %>" class="form-control">
+  						</td>
+  						<td>
+  						<input type="text" name="wersja_aplikacji" value="<%= wersja_aplikacji %>" class="form-control">
+  						</td>
+  					</tr>
+
+  				</tbody>
+  			</table>
+  		</div>
+  	</div>
+  	<a href="javascript:history.back()" class="btn btn-default pull-left">Powrót</a><input type="submit" class="pull-right btn btn-default" value="Edytuj"></a>
+
+   </form>
+  </div>
+
+</body>
+</html>

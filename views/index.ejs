@@ -1,0 +1,244 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strona Redis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="favicon.ico" />
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid nav">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+												<li><a href="/Opis">O stronie</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Listy <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Rezyser">Lista - rezyser</a></li>
+																<li><a href="/Komentujacy">Zbior - komentujacy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <div class='container carousel' style="padding-top: 80px;padding-bottom: 20px; width:1460px;">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner text-center" role="listbox" style="margin: 15px;">
+                    <div class="item active">
+                        <div class="col-lg-8 pull-right" style="width: 950px;height: 350px;">
+                            <img src="https://www.dccomics.com/sites/default/files/styles/gallery_image_1400x495/public/Movies-Marquee_JusticeLeague2017_TheLeague_5a2063f866bff8.69237849.jpg?itok=yryJD6BT" style="width: 100%;height: 100%;">
+                        </div>
+												<div class="col-lg-4">
+                            <h2>Liga Sprawiedliwości<br>
+														</br>
+																<small>Chris Terrio, Joss Whedon</small>
+														</h2>
+                            <p>
+															Jedni z największych superbohaterów na świecie tworzą Ligę Sprawiedliwości. Jej celem jest zwalczanie zagrożeń, które wykraczają poza ludzkie możliwości.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-lg-8 pull-right" style="width: 950px;height: 350px;">
+                            <img src="https://s3.amazonaws.com/ffe-ugc/intlportal2/dev-temp/en-US/__5a4436685356f.jpg" style="width: 100%;height: 100%;">
+                        </div>
+												<div class="col-lg-4">
+                            <h2>Morderstwo w Orient Expressie<br>
+															</br>
+																<small>Michael Green</small></h2>
+                            <p>
+															W luksusowym pociągu ginie wpływowy biznesmen. Hercules Poirot podejmuje się rozwiązania zagadki i wskazania mordercy spośród trzynastu współpasażerów.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-lg-8 pull-right" style="width: 950px;height: 350px;">
+                            <img src="https://s3-us-west-1.amazonaws.com/s3.kllcfm.radio.com/Rampage%20movie.jpg" style="width: 100%;height: 100%;">
+                        </div>
+												<div class="col-lg-4">
+                            <h2>Rampage: Dzika furia<br>
+															</br>
+																<small>Ryan Condal, Carlton Cuse, Ryan Engle</small></h2>
+                            <p>
+																Prymatolog Davis Okoye (Dwayne Johnson) ma niezwykłego przyjaciela – George’a, którym opiekuje się od małego. George jest bardzo inteligentnym gorylem o siwym futrze. Pewnego dnia George pod wpływem tajemniczej substancji przemienia się z łagodnej małpy w groźnego potwora. Wszystko w wyniku nieuczciwego eksperymentu genetycznego. Co gorsza eksperyment nie wpłynął tylko na goryla, lecz także na inne gatunki, które teraz przedzierają się przez Amerykę Północną, siejąc zniszczenie. Okoye stara się pomóc w znalezieniu antidotum, które może powstrzymać katastrofę i jednocześnie uratować George’a.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class='container' style="padding-bottom: 20px; width:1460px;">
+            <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                        <img src="https://ia.media-imdb.com/images/M/MV5BMTk2MjQ0MjcyNV5BMl5BanBnXkFtZTgwMjcwMDQxNTM@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>in Category</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+								<div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                        <img src="https://ia.media-imdb.com/images/M/MV5BMTk2MjQ0MjcyNV5BMl5BanBnXkFtZTgwMjcwMDQxNTM@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>in Category</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+
+								<div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                        <img src="https://ia.media-imdb.com/images/M/MV5BMTk2MjQ0MjcyNV5BMl5BanBnXkFtZTgwMjcwMDQxNTM@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>in Category</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+
+								<div class="col-sm-3 col-md-3">
+										<div class="thumbnail">
+												<img src="https://ia.media-imdb.com/images/M/MV5BMTk2MjQ0MjcyNV5BMl5BanBnXkFtZTgwMjcwMDQxNTM@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="...">
+												<div class="caption">
+														<h3>Thumbnail label</h3>
+														<p>in Category</p>
+														<p>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+														</p>
+														<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+												</div>
+										</div>
+								</div>
+
+								<div class="col-sm-3 col-md-3">
+										<div class="thumbnail">
+												<img src="https://ia.media-imdb.com/images/M/MV5BMTk2MjQ0MjcyNV5BMl5BanBnXkFtZTgwMjcwMDQxNTM@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="...">
+												<div class="caption">
+														<h3>Thumbnail label</h3>
+														<p>in Category</p>
+														<p>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+														</p>
+														<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+												</div>
+										</div>
+								</div>
+
+								<div class="col-sm-3 col-md-3">
+										<div class="thumbnail">
+												<img src="https://ia.media-imdb.com/images/M/MV5BMTk2MjQ0MjcyNV5BMl5BanBnXkFtZTgwMjcwMDQxNTM@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="...">
+												<div class="caption">
+														<h3>Thumbnail label</h3>
+														<p>in Category</p>
+														<p>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+														</p>
+														<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+												</div>
+										</div>
+								</div>
+
+
+
+            </div>
+
+
+
+						<nav aria-label="Page navigation" id="div-pagination">
+								<ul class="pager">
+										<li>
+												<a href="#" aria-label="Previous">
+														<span aria-hidden="true">«</span>
+												</a>
+										</li>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li>
+												<a href="#" aria-label="Next">
+														<span aria-hidden="true">»</span>
+												</a>
+										</li>
+								</ul>
+						</nav>
+        </div>
+
+
+        <footer>
+
+            <!--/.footer-->
+
+
+
+
+            <div class="footer-bottom">
+                <div class="container" style="text-align: center;">
+                    <p> Copyright © 2017 Chwastek Dawid</p>
+                </div>
+            </div>
+            <!--/.footer-bottom-->
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
